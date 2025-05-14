@@ -3,6 +3,7 @@ package main
 import (
 	"go-basic/condition"
 	"go-basic/configs"
+	"go-basic/functional"
 	"go-basic/iteration"
 	"go-basic/structure"
 	"go-basic/vari"
@@ -13,5 +14,6 @@ func main() {
 	vari.Mainvari()
 	condition.Conditionifelse()
 	iteration.Iterationwhileloops()
-	structure.StructureSlice()
+	structure.StructureStruc()
+	functional.ParameterFunction2()
 }
